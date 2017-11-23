@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">证件识别demo</string>
+    <string name="text_money">请输入收款金额</string>
+    <string name="text_confirm">确认收款</string>
+</resources>

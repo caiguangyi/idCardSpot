@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_photo_graph"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ksytech.zjbspot.activity.CameraScanActivity">
+
+    <SurfaceView
+        android:id="@+id/camera_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.ksytech.zjbspot.view.CameraTopRectView
+        android:id="@+id/rectOnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rotation="90"
+        android:text="银行卡-正面"
+        android:textColor="#FE7D14"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_bk_sc"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:layout_width="22.5dp"
+            android:layout_height="16dp"
+            android:layout_centerInParent="true"
+            android:rotation="90"
+            android:src="@mipmap/back_white" />
+    </RelativeLayout>
+</FrameLayout>

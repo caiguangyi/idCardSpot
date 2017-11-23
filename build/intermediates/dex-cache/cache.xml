@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/caiguangyi/Desktop/证件识别demo/IdCardAndBankSpot/app/libs/ocr-sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6e180d923854af2054584e9c6c196e4c3803d68c">
+        <dex dex="/Users/caiguangyi/Desktop/证件识别demo/IdCardAndBankSpot/app/build/intermediates/pre-dexed/debug/ocr-sdk_afcc4a588159d20ff183b51d9a460c100f17a170.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caiguangyi/Desktop/ZhaocaihuoPay/app/libs/ocr-sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6e180d923854af2054584e9c6c196e4c3803d68c">
+        <dex dex="/Users/caiguangyi/Desktop/ZhaocaihuoPay/app/build/intermediates/pre-dexed/debug/ocr-sdk_7d079810bed5ac532ae3d589c71b05f7b337fefa.jar" />
+    </item>
+
+</items>
